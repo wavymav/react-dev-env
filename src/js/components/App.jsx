@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     var meesageNodes = this.state.messages.map((message) => {
       return (
-        <div style={{color: 'red'}}>
+        <div>
           <h2>Message: {message}</h2>
         </div>
       );
